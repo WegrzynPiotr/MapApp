@@ -4,8 +4,8 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel script.js"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -18,8 +18,11 @@
   },
   "homepage": "https://github.com/WegrzynPiotr/Mapty#readme",
   "dependencies": {
+    "core-js": "^3.27.0",
     "leaflet": "^1.9.3",
-    "parcel": "^2.8.2",
-    "parcel-cli": "^1.1.0"
+    "regenerator-runtime": "^0.13.11"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.2"
   }
 }

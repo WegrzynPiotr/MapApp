@@ -1,5 +1,7 @@
 
-import "./node_modules/leaflet/dist/leaflet.js";
+import "core-js/stable"
+import "regenerator-runtime/runtime"
+import "leaflet";
 const containerMapTitle = document.querySelector(".container__map p")
 const containerMap = document.querySelector(".container__map")
 const containerWorkout = document.querySelector(".container__workout");
