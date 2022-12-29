@@ -1,4 +1,5 @@
 
+import "./node_modules/leaflet/dist/leaflet.js";
 const containerMapTitle = document.querySelector(".container__map p")
 const containerMap = document.querySelector(".container__map")
 const containerWorkout = document.querySelector(".container__workout");

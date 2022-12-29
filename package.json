@@ -1,0 +1,25 @@
+{
+  "name": "mapty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WegrzynPiotr/Mapty.git"
+  },
+  "author": "Piotr Wegrzyn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WegrzynPiotr/Mapty/issues"
+  },
+  "homepage": "https://github.com/WegrzynPiotr/Mapty#readme",
+  "dependencies": {
+    "leaflet": "^1.9.3",
+    "parcel": "^2.8.2",
+    "parcel-cli": "^1.1.0"
+  }
+}
